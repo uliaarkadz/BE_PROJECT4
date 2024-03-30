@@ -5,12 +5,10 @@
 - **Developer: Yuliya Buiko**
 - **App Name: Hospital Management System**
 - **Description: Full-stack web application to handle a hospital’s work. The system should have an interface for creating doctors' accounts, inserting and updating patients and adding records for all patients’ details, and it should also offer a method for quickly accessing and searching records.**
-- **GitHub Url Back End:**
-- **GitHub Url Front End:**
+- **GitHub Url Back End:https://github.com/uliaarkadz/BE_PROJECT4.git**
+- **GitHub Url Front End:https://github.com/uliaarkadz/FE_PROJECT4.git**
 - **Deployed WebSite FE:**
 - **Deployed WebSite BE:**
-
-## Problem Being Solved and Target Market Use this area to explain what problem your app is solving, and who are the people who have this problem.
 
 ## User Stories
 
@@ -42,14 +40,6 @@ List of different routes and their purpose in the app
 | /patient/:id |  PUT   |     Update patient by id     |       |
 | /patient/:id | DELETE | Delete patient record by id  |       |
 
-## Design mockups (Desktop + Mobile)
-
-![Design mockup](/hospitalmanagement/images/image-1.png)
-
 ## ERD (Entity Relationship Diagram)
 
 ![Entity Relationship Diagram](/hospitalmanagement/images/image.png)
-
-## React Routers
-
-![React Routers](/hospitalmanagement/images/image-2.png)
