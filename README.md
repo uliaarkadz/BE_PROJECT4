@@ -44,12 +44,12 @@ List of different routes and their purpose in the app
 
 ## Design mockups (Desktop + Mobile)
 
-![Design mockup](image-1.png)
+![Design mockup](/hospitalmanagement/images/image-1.pngimage-1.png)
 
 ## ERD (Entity Relationship Diagram)
 
-![Entity Relationship Diagram](image.png)
+![Entity Relationship Diagram](/hospitalmanagement/images/image.png)
 
 ## React Routers
 
-![React Routers](image-2.png)
+![React Routers](/hospitalmanagement/images/image-2.png)
