@@ -44,7 +44,7 @@ List of different routes and their purpose in the app
 
 ## Design mockups (Desktop + Mobile)
 
-![Design mockup](/hospitalmanagement/images/image-1.pngimage-1.png)
+![Design mockup](/hospitalmanagement/images/image-1.png)
 
 ## ERD (Entity Relationship Diagram)
 
