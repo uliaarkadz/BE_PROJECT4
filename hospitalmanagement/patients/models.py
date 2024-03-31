@@ -1,6 +1,10 @@
 from django.db import models
 
 # Create your models here.
-class Doctor(models.Model):
-    name=models.CharField(max_length=100)
-    license=models.IntegerField()
+class Patient(models.Model):
+    firstName=models.CharField(max_length=100)
+    lastName=models.CharField(max_length=100)
+    dob=models.DateField()
+    gender=models.CharField()
+    doctorId=models.IntegerField()
+    createdDate=models.DateTimeField()
