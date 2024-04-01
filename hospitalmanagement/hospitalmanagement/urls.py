@@ -19,11 +19,12 @@ from django.urls import path, include
 from rest_framework import routers
 from doctors.views import DoctorViewSet
 from patients.views import PatientViewSet
+from medicalrecords.views import MedicalRecordViewSet
 
 router=routers.DefaultRouter()
 router.register(r'doctors', DoctorViewSet)
 router.register(r'patients', PatientViewSet)
-
+router.register(r'medicalrecords', MedicalRecordViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),

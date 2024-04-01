@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'doctors.apps.DoctorsConfig',
     'patients.apps.PatientsConfig',
+    'medicalrecords.apps.MedicalrecordsConfig',
     'rest_framework',    
     "corsheaders",
 ]

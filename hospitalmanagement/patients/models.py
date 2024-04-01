@@ -1,3 +1,4 @@
+from django.utils.timezone import now
 from django.db import models
 
 # Create your models here.
@@ -7,4 +8,4 @@ class Patient(models.Model):
     dob=models.DateField()
     gender=models.CharField()
     doctorId=models.IntegerField()
-    createdDate=models.DateTimeField()
+    createdDate=models.DateTimeField(default=now())
